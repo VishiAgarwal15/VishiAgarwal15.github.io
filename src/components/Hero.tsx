@@ -18,7 +18,7 @@ export default function Hero() {
   className="mb-6"
   >
   <span className="inline-block border border-ink/30 text-ink text-[12px] font-medium tracking-widest uppercase px-4 py-1.5 rounded-pill">
-  CSM · CSPO · PMP Approved
+  CSM · CSPO Certified
   </span>
   </motion.div>
 

@@ -39,12 +39,6 @@ const certifications = [
  issuer: "Scrum Alliance",
  status: "Active",
  },
- {
- name: "PMP",
- full: "Project Management Professional",
- issuer: "PMI",
- status: "Approved",
- },
 ];
 
 export default function Skills() {

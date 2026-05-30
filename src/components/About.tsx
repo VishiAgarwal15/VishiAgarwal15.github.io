@@ -46,7 +46,7 @@ export default function About() {
    15-day processing cycle down to 4 days on a $500M+ AUM platform.
    At Evenness, I shipped AI compliance features with 100% on-time
    delivery across 9 sprints. CSM &amp; CSPO certified through Scrum
-   Alliance, PMP approved through PMI.
+   Alliance.
   </p>
   <Link
    href="/contact"

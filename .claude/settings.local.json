@@ -22,7 +22,9 @@
       "Bash(sed -i '' 's/title: \"Skills Vishi Agarwal\"/title: \"Skills | Vishi Agarwal\"/' /Users/rajatagrawal/Desktop/Portfolio/src/app/skills/page.tsx)",
       "Bash(sed -i '' 's/teams cut dispute/teams, cut dispute/' /Users/rajatagrawal/Desktop/Portfolio/src/components/Projects.tsx)",
       "Bash(sed -i '' 's/Operations aligned/Operations, aligned/' /Users/rajatagrawal/Desktop/Portfolio/src/components/Experience.tsx)",
-      "Bash(sed -i '' 's/savings adopted/savings, adopted/' /Users/rajatagrawal/Desktop/Portfolio/src/components/Experience.tsx)"
+      "Bash(sed -i '' 's/savings adopted/savings, adopted/' /Users/rajatagrawal/Desktop/Portfolio/src/components/Experience.tsx)",
+      "Bash(sed -i '' 's/CSM · CSPO · PMP Approved/CSM · CSPO Certified/' /Users/rajatagrawal/Desktop/Portfolio/src/components/Hero.tsx)",
+      "Bash(sed -i '' 's/ PMP approved through PMI\\\\.//' /Users/rajatagrawal/Desktop/Portfolio/src/components/About.tsx)"
     ]
   }
 }
