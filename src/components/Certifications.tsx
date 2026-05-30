@@ -57,8 +57,8 @@ export default function Certifications() {
           <p className="text-[12px] font-medium uppercase tracking-widest text-ink mb-2">
             Credentials
           </p>
-          <h1 className="font-display text-ink uppercase text-[clamp(56px,10vw,120px)] leading-[0.9] tracking-wide">
-            CERTIFI<br />CATIONS
+          <h1 className="font-display text-ink uppercase text-[clamp(40px,7vw,96px)] leading-[0.9] tracking-wide">
+            CERTIFICATIONS
           </h1>
           <p className="text-mute text-base font-medium max-w-lg mt-6 leading-relaxed">
             Scrum Alliance certified in both ScrumMaster and Product Owner disciplines, validating end-to-end Agile delivery expertise.
