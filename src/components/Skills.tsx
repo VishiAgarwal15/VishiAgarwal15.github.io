@@ -91,9 +91,14 @@ export default function Skills() {
 
         {/* Certifications */}
         <div>
-          <p className="text-[12px] font-medium uppercase tracking-widest text-mute mb-6">
-            Certifications
-          </p>
+          <div className="mb-8 pt-4">
+            <p className="text-[12px] font-medium uppercase tracking-widest text-ink">
+              Credentials
+            </p>
+            <h3 className="font-display text-ink uppercase text-[clamp(32px,5vw,52px)] leading-[0.9] tracking-wide mt-2">
+              CERTIFICATIONS
+            </h3>
+          </div>
           <div className="grid sm:grid-cols-2 gap-px bg-cloud border border-hairline">
             {certifications.map((cert, i) => (
               <motion.div
