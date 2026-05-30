@@ -38,8 +38,8 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="mt-6 text-mute text-base font-medium max-w-md leading-relaxed"
         >
-          Product Manager & Project Manager — 6+ years shipping data-informed
-          B2B solutions across AI compliance and financial services.{" "}
+          Product Owner — 6+ years shipping data-informed B2B solutions
+          across AI compliance and financial services.{" "}
           <span className="text-ink font-semibold">$10M+ commercial impact.</span>
         </motion.p>
 
