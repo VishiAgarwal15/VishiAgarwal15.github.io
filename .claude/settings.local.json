@@ -12,7 +12,17 @@
       "Bash(git commit *)",
       "Bash(git remote *)",
       "Bash(git push *)",
-      "Bash(gh auth *)"
+      "Bash(gh auth *)",
+      "Bash(xargs sed -i '' 's/—/ /g')",
+      "Bash(xargs sed -i '' 's/   / /g; s/  / /g')",
+      "Bash(sed -i '' 's/title: \"Vishi Agarwal Product Owner\"/title: \"Vishi Agarwal | Product Owner\"/' /Users/rajatagrawal/Desktop/Portfolio/src/app/layout.tsx)",
+      "Bash(sed -i '' 's/title: \"About Vishi Agarwal\"/title: \"About | Vishi Agarwal\"/' /Users/rajatagrawal/Desktop/Portfolio/src/app/about/page.tsx)",
+      "Bash(sed -i '' 's/title: \"Experience Vishi Agarwal\"/title: \"Experience | Vishi Agarwal\"/' /Users/rajatagrawal/Desktop/Portfolio/src/app/experience/page.tsx)",
+      "Bash(sed -i '' 's/title: \"Projects Vishi Agarwal\"/title: \"Projects | Vishi Agarwal\"/' /Users/rajatagrawal/Desktop/Portfolio/src/app/projects/page.tsx)",
+      "Bash(sed -i '' 's/title: \"Skills Vishi Agarwal\"/title: \"Skills | Vishi Agarwal\"/' /Users/rajatagrawal/Desktop/Portfolio/src/app/skills/page.tsx)",
+      "Bash(sed -i '' 's/teams cut dispute/teams, cut dispute/' /Users/rajatagrawal/Desktop/Portfolio/src/components/Projects.tsx)",
+      "Bash(sed -i '' 's/Operations aligned/Operations, aligned/' /Users/rajatagrawal/Desktop/Portfolio/src/components/Experience.tsx)",
+      "Bash(sed -i '' 's/savings adopted/savings, adopted/' /Users/rajatagrawal/Desktop/Portfolio/src/components/Experience.tsx)"
     ]
   }
 }
