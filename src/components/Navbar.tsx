@@ -34,7 +34,7 @@ export default function Navbar() {
   <div className="flex items-center gap-6 text-[12px] font-medium text-ink">
   <a href="mailto:vishiagarwal02@gmail.com" className="hover:underline">vishiagarwal02@gmail.com</a>
   <span className="text-stone">·</span>
-  <a href="tel:+14085911490" className="hover:underline">(408) 591-1490</a>
+  <a href="tel:+919953218262" className="hover:underline">+91 99532 18262</a>
   </div>
  </div>
 
