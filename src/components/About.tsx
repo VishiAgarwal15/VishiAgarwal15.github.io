@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { useInView } from "../hooks/useInView";
 
 export default function About() {
@@ -47,15 +48,15 @@ export default function About() {
               delivery across 9 sprints. CSM &amp; CSPO certified through Scrum
               Alliance, PMP approved through PMI.
             </p>
-            <a
-              href="#contact"
+            <Link
+              href="/contact"
               className="inline-flex items-center gap-2 text-ink font-medium text-sm underline underline-offset-4"
             >
               Let&apos;s work together
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
-            </a>
+            </Link>
           </motion.div>
 
           {/* Key signals */}

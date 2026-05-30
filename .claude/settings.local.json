@@ -9,7 +9,10 @@
       "Bash(xargs sed -i '' -e 's/text-\\\\[#1151ff\\\\]/text-ink/g' -e 's/bg-\\\\[#1151ff\\\\]\\\\/[0-9]*/bg-cloud/g' -e 's/bg-\\\\[#1151ff\\\\]/bg-ink/g' -e 's/border-\\\\[#1151ff\\\\]\\\\/[0-9]*/border-hairline/g' -e 's/border-\\\\[#1151ff\\\\]/border-ink/g' -e 's/#1151ff\\\\/[0-9]*/transparent/g' -e 's/#1151ff/transparent/g')",
       "Bash(git init *)",
       "Bash(git add *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(gh auth *)"
     ]
   }
 }

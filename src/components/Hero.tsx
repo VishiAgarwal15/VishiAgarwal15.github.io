@@ -1,12 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen bg-white flex flex-col justify-end overflow-hidden pt-24"
+      className="relative min-h-screen bg-white flex flex-col justify-end overflow-hidden pt-[88px]"
     >
       <div className="relative z-10 max-w-[1440px] mx-auto w-full px-6 md:px-12 lg:px-20 pb-16 md:pb-24">
         {/* Badge */}
@@ -50,12 +51,12 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="mt-8 flex flex-wrap gap-3"
         >
-          <a href="#projects" className="btn-primary">
+          <Link href="/projects" className="btn-primary">
             View My Work
-          </a>
-          <a href="#contact" className="btn-secondary">
+          </Link>
+          <Link href="/contact" className="btn-secondary">
             Get In Touch
-          </a>
+          </Link>
         </motion.div>
 
         {/* Stats strip */}
