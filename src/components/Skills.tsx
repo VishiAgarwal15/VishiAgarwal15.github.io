@@ -90,7 +90,7 @@ export default function Skills() {
   <p className="text-[12px] font-medium uppercase tracking-widest text-mute mb-6">
   Certifications
   </p>
-  <div className="grid sm:grid-cols-3 gap-px bg-cloud border border-hairline">
+  <div className="grid sm:grid-cols-2 gap-px bg-cloud border border-hairline">
   {certifications.map((cert, i) => (
    <motion.div
    key={cert.name}
