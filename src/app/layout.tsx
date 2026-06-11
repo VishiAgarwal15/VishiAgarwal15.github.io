@@ -18,9 +18,9 @@ const bebas = Bebas_Neue({
 });
 
 export const metadata: Metadata = {
- title: "Vishi Agarwal | Project Manager",
+ title: "Vishi Agarwal | Product Owner & Business Analyst",
  description:
- "Portfolio of Vishi Agarwal Project Manager with 6+ years shipping data-informed B2B products with $10M+ commercial impact.",
+ "Portfolio of Vishi Agarwal Product Owner & Business Analyst with 6+ years delivering BFSI digital banking solutions with $10M+ commercial impact.",
 };
 
 export default function RootLayout({

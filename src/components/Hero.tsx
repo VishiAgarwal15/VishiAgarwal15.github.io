@@ -39,7 +39,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="mt-6 text-mute text-base font-medium max-w-lg leading-relaxed"
         >
-          Project Manager with 6+ years delivering complex cross-functional programs on time, within budget, and to agreed quality standards across global MNC and fintech environments.{" "}
+          Product Owner & Business Analyst with 6+ years delivering BFSI digital banking solutions, driving regulatory compliance, and scaling Agile workflows across credit risk, fraud, and payments.{" "}
           <span className="text-ink font-semibold">$10M+ commercial impact.</span>
         </motion.p>
 

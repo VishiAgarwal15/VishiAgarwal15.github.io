@@ -12,22 +12,24 @@ const experiences = [
     logo: null,
     monogram: "EV",
     bullets: [
-      "Managed project timelines and resources across 3 AI agent compliance workflows spanning 9 sprints; achieved 100% on-time delivery with zero missed deadlines",
-      "Identified risks and dependencies early across Engineering, Compliance, and Operations; drove mitigation strategies that reduced defect rate by 35% with zero compliance exceptions",
-      "Maintained structured stakeholder communication cadence across all delivery cycles; ensured full compliance with governance standards and zero scope creep",
+      "Defined product vision and owned roadmap for 3 AI compliance agent workflows; drove 100% on-time delivery across 9 Scrum sprints in an Agile environment",
+      "Wrote user stories, managed backlog refinement, and facilitated sprint ceremonies in Jira and Confluence; zero compliance exceptions across all deliverables",
+      "Coached Engineering, UX/UI, and QA on acceptance criteria and defect triage; reduced defect rate by 35% through structured prioritization",
+      "Tracked sprint KPIs and product health via data analysis; identified simplification opportunities that improved agility and delivery quality",
     ],
   },
   {
     company: "American Express India Private Limited",
     location: "Gurugram, IND",
-    title: "Senior Business Analyst",
+    title: "Master Disputes Analyst",
     period: "Nov 2022 - Nov 2024",
     logo: "https://logo.clearbit.com/americanexpress.com",
     monogram: "AX",
     bullets: [
-      "Managed end-to-end program delivery for B2B dispute workflows across 32K+ accounts; tracked KPIs, controlled budgets, and ensured industry standards adherence, generating $10M+ annual impact",
-      "Coordinated cross-functional resources across Finance, Fraud, Legal, and Risk (onshore/offshore); cut resolution time from 28 to 24 days and improved forecasting accuracy by 12%",
-      "Drove continuous improvement through AI tools and automated dashboards; lifted output accuracy from 94% to 98% across programs",
+      "Orchestrated resolution of 32K+ B2B dispute cases under Regulation Z compliance across banking solutions in a SAFe Agile environment",
+      "Produced business requirements documentation and conducted gap analysis; improved forecasting accuracy by 12% and cut resolution cycle from 28 to 24 days",
+      "Automated dispute tracking via Excel dashboards; generated $10M+ annual profitability gains, $2.4M in savings, and reduced repeat disputes by 12%",
+      "Lifted output accuracy from 94% to 98% through data-driven decisioning and iterative product design across the customer lifecycle",
     ],
   },
   {
@@ -38,9 +40,10 @@ const experiences = [
     logo: "https://logo.clearbit.com/barclays.com",
     monogram: "BA",
     bullets: [
-      "Led cross-functional project delivery for HM Treasury's $250M+ Bounce Back Loan program; defined timelines, managed resources, and achieved 22% operational efficiency gain in 18 months",
-      "Implemented mitigation strategies across SME recovery portfolios; cut fraud risk by 8% and lifted recovery rate from 34% to 48%",
-      "Recovered $18M in loans through structured execution aligned to governance and industry standards across Technology and Compliance",
+      "Led business requirements documentation for HM Treasury's $250M+ Bounce Back Loan program; developed Recovery Process Framework achieving 22% operational efficiency gain",
+      "Built automated Excel dashboards tracking recovery rate, resolution time, and fraud exposure KPIs; supported UAT/SIT and impact assessments across all accounts",
+      "Conducted gap analysis with Legal and Compliance teams; cut fraud exposure by 8% and improved recovery rate from 34% to 48%",
+      "Enabled $18M in defaulted loan recovery through aligned cross-functional execution and iterative workflow redesign",
     ],
   },
   {
@@ -51,9 +54,10 @@ const experiences = [
     logo: "https://logo.clearbit.com/natwest.com",
     monogram: "RBS",
     bullets: [
-      "Delivered end-to-end program management for FATCA/CRS compliance across $500M+ AUM; coordinated cross-functional resources, managed risks and escalations, achieving 100% compliance with zero regulatory findings",
-      "Automated 70% of reconciliation workflows; reduced processing time from 15 to 4 days, saving $450K annually",
-      "Reduced rework by 25% across Legal, Finance, and Operations through centralized documentation systems and effective communication",
+      "Delivered end-to-end tax reporting system for FATCA/CRS obligations across $500M+ AUM on Azure DevOps; achieved 100% regulatory compliance with zero audit findings over 26 months",
+      "Automated 70% of account reconciliation workflows; cut processing time from 15 to 4 days saving $450K annually in manual effort",
+      "Reduced rework by 25% through iterative Agile development cycles across Legal, Finance, and Operations",
+      "Maintained zero data quality exceptions across all reportable accounts through rigorous requirements traceability and centralized documentation",
     ],
   },
 ];
@@ -89,7 +93,6 @@ export default function Experience() {
             >
               {/* Left: logo + company + period */}
               <div>
-                {/* Logo */}
                 <div className="w-12 h-12 bg-cloud border border-hairline flex items-center justify-center mb-4 overflow-hidden">
                   {exp.logo ? (
                     <img
@@ -109,7 +112,6 @@ export default function Experience() {
                     <span className="font-display text-ink text-[14px] tracking-wide">{exp.monogram}</span>
                   )}
                 </div>
-
                 <div className="text-[15px] font-medium text-ink">{exp.company}</div>
                 <div className="text-[12px] font-medium text-mute mt-0.5">{exp.location}</div>
                 <div className="text-[12px] font-medium text-stone mt-3 font-mono">{exp.period}</div>

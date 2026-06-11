@@ -5,31 +5,38 @@ import { useInView } from "../hooks/useInView";
 
 const skillGroups = [
   {
-    category: "Project Delivery",
-    skills: ["End-to-End Project Management", "Program Management", "Project Governance", "Timeline & Budget Management", "Resource Coordination", "Agile & SAFe", "SDLC", "Sprint Planning"],
+    category: "Agile & Product",
+    skills: [
+      "Product Roadmap", "Backlog Management", "User Story Writing",
+      "Business Requirements Documentation", "BRD/FRD", "Gap Analysis",
+      "Process Mapping", "Sprint Planning", "UAT/SIT", "Defect Triage",
+      "SAFe", "Scrum", "CSPO", "CSM",
+    ],
   },
   {
-    category: "Tools",
-    skills: ["Jira", "Confluence", "Azure DevOps", "Asana", "SQL", "Power BI", "Excel", "GitHub", "Trello", "AI Tools", "Prompt Engineering"],
+    category: "Domain",
+    skills: [
+      "BFSI", "Digital Banking Solutions", "Payments", "Lending",
+      "Credit Underwriting", "Fraud Risk", "Regulatory Compliance",
+      "KYC/AML", "FATCA/CRS",
+    ],
   },
   {
-    category: "Risk & Compliance",
-    skills: ["Risk Identification", "Mitigation Strategies", "Dependency Management", "Compliance Oversight", "Industry Standards"],
-  },
-  {
-    category: "Stakeholder Management",
-    skills: ["Cross-Functional Collaboration", "Executive Reporting", "Onshore/Offshore Coordination", "Stakeholder Communication", "Retail Project Management"],
-  },
-  {
-    category: "Process Innovation",
-    skills: ["Continuous Improvement", "Process Redesign", "Workflow Automation", "Project Lifecycle Management"],
+    category: "Data & Tools",
+    skills: [
+      "Advanced Excel", "SQL", "Jira", "Confluence", "Azure DevOps",
+      "Power BI", "MS Project", "Smartsheet", "Asana", "GitHub",
+      "Prompt Engineering",
+    ],
   },
   {
     category: "Soft Skills",
-    skills: ["Problem-Solving", "Decision-Making", "Effective Communication", "Time Management", "Detail-Oriented", "Analytical Ability"],
+    skills: [
+      "Stakeholder Management", "Cross-Functional Leadership", "Coaching",
+      "Problem Solving", "Customer-Centered Design", "Communication",
+    ],
   },
 ];
-
 
 export default function Skills() {
   const { ref, inView } = useInView();
@@ -47,12 +54,11 @@ export default function Skills() {
             Expertise
           </p>
           <h2 className="font-display text-ink uppercase text-[clamp(40px,6vw,64px)] leading-[0.9] tracking-wide mt-2">
-            SKILLS &<br />CERTS
+            SKILLS
           </h2>
         </motion.div>
 
-        {/* Skill rows */}
-        <div className="mb-16">
+        <div>
           {skillGroups.map((group, i) => (
             <motion.div
               key={group.category}
@@ -74,7 +80,6 @@ export default function Skills() {
             </motion.div>
           ))}
         </div>
-
       </div>
     </section>
   );

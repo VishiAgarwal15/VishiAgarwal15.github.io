@@ -8,37 +8,37 @@ const projects = [
     title: "AI COMPLIANCE\nPLATFORM",
     company: "Evenness",
     description:
-      "Managed end-to-end project governance for 3 AI agent workflows across 9 sprints; achieved 100% on-time delivery using Jira and Confluence with zero compliance exceptions.",
-    tags: ["Jira", "Confluence", "Agile", "SAFe", "Risk Management"],
+      "Owned backlog and sprint delivery for 3 AI agent workflows in an Agile environment; 100% on-time closure tracked via Jira and Confluence with zero compliance exceptions across all deliverables.",
+    tags: ["Jira", "Confluence", "Agile", "Scrum", "Backlog Management"],
     metric: "100%",
     metricLabel: "On-time delivery · 9 sprints · 0 compliance exceptions",
   },
   {
-    title: "SUPER BOWL LX\nSILICON VALLEY",
-    company: "Silicon Valley Chamber of Commerce",
-    description:
-      "Led cross-functional project delivery for Silicon Valley Sporting Events 2026 in partnership with Northeastern University; coordinated stakeholder communications, managed timelines, and ensured execution aligned to governance standards across a large-scale public event.",
-    tags: ["Stakeholder Management", "Event Delivery", "Cross-Functional"],
-    metric: "2026",
-    metricLabel: "Large-scale public event · Northeastern University partnership",
-  },
-  {
-    title: "PAYMENT DISPUTE\nPROGRAM",
+    title: "PAYMENT DISPUTE\nPLATFORM",
     company: "American Express",
     description:
-      "Managed timelines, budgets, and risk escalation for B2B dispute workflows across 32K+ accounts; generated $10M+ impact with zero scope creep in a SAFe environment.",
-    tags: ["SAFe", "Azure DevOps", "SQL", "Power BI", "Budget Management"],
+      "KPI monitoring and dispute resolution across 32K+ B2B accounts under Regulation Z compliance; generated $10M+ impact and $2.4M in savings across banking solutions in a SAFe environment.",
+    tags: ["SAFe", "Azure DevOps", "Excel Dashboards", "Regulation Z"],
     metric: "$10M+",
-    metricLabel: "Annual impact · 32K+ accounts · 0 scope creep",
+    metricLabel: "Annual impact · $2.4M savings · 32K+ accounts",
   },
   {
     title: "TAX RECONCILIATION\nRE-ENGINEERING",
     company: "NatWest / RBS",
     description:
-      "Led dependency tracking and process innovation on a $500M+ AUM platform; automated 70% of reconciliation workflows and cut processing time from 15 to 4 days, saving $450K annually.",
-    tags: ["SQL", "FATCA/CRS", "Process Redesign", "Workflow Automation"],
+      "Compliance workflow redesign for FATCA/CRS obligations on a $500M+ AUM platform on Azure DevOps; automated 70% of reconciliation workflows, cut processing time from 15 to 4 days.",
+    tags: ["Azure DevOps", "FATCA/CRS", "SQL", "Workflow Automation"],
     metric: "$450K",
     metricLabel: "Saved annually · 15 to 4 day cycle · 100% compliance",
+  },
+  {
+    title: "SUPER BOWL LX\nMAGAZINE",
+    company: "Silicon Valley Chamber of Commerce",
+    description:
+      "Managed end-to-end delivery of The Games Magazine for Silicon Valley Sporting Events 2026; synchronized production timelines across content, design, and marketing teams.",
+    tags: ["Project Management", "Cross-Functional", "Stakeholder Mgmt"],
+    metric: "2026",
+    metricLabel: "Silicon Valley Sporting Events · Northeastern University partnership",
   },
 ];
 
@@ -62,7 +62,6 @@ export default function Projects() {
           </h2>
         </motion.div>
 
-        {/* 2x2 grid for 4 projects */}
         <div className="grid md:grid-cols-2 gap-px bg-cloud border border-hairline">
           {projects.map((project, i) => (
             <motion.div

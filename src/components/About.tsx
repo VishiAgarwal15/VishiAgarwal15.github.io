@@ -32,10 +32,10 @@ export default function About() {
             transition={{ duration: 0.5, delay: 0.1 }}
           >
             <p className="text-base text-charcoal leading-relaxed mb-5">
-              Project Manager with 6+ years of experience delivering complex cross-functional programs on time, within budget, and to agreed quality standards across global MNC and fintech environments.
+              Product Owner and Business Analyst with 6+ years of experience delivering BFSI digital banking solutions, driving regulatory compliance, and scaling Agile workflows across credit risk, fraud, and payments environments in the financial services industry.
             </p>
             <p className="text-base text-charcoal leading-relaxed mb-8">
-              I bring cross-functional program delivery expertise across AI compliance, financial services, and payment platforms. At American Express, I generated $10M+ in annual impact managing B2B dispute workflows across 32K+ accounts. At NatWest, I automated 70% of reconciliation workflows cutting processing time from 15 to 4 days on a $500M+ AUM platform. CSM & CSPO certified through Scrum Alliance.
+              At American Express, I orchestrated resolution of 32K+ B2B dispute cases generating $10M+ in annual profitability gains. At NatWest, I delivered end-to-end FATCA/CRS tax reporting across $500M+ AUM with 100% regulatory compliance and zero audit findings over 26 months. At Evenness, I defined product vision and owned roadmap for 3 AI compliance agent workflows with 100% on-time delivery across 9 Scrum sprints. CSM & CSPO certified through Scrum Alliance.
             </p>
             <Link
               href="/contact"
@@ -53,7 +53,7 @@ export default function About() {
             initial={{ opacity: 0, x: 20 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.15 }}
-            className="grid grid-cols-2 gap-px bg-[#1151ff]/10 border border-[#1151ff]/20"
+            className="grid grid-cols-2 gap-px bg-hairline border border-hairline"
           >
             {[
               { value: "6+", label: "Years Experience" },
