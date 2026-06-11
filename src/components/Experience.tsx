@@ -21,7 +21,7 @@ const experiences = [
   {
     company: "American Express India Private Limited",
     location: "Gurugram, IND",
-    title: "Master Disputes Analyst",
+    title: "Senior Business Analyst",
     period: "Nov 2022 - Nov 2024",
     logo: "https://logo.clearbit.com/americanexpress.com",
     monogram: "AX",
